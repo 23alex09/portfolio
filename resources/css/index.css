@@ -15,7 +15,11 @@ header {
 }
 
 .link {
-    color: #FCFCFC
+    color: #FCFCFC;
+}
+
+.link:hover {
+    color: #e0e0e0;
 }
 
 .header-links {
@@ -28,13 +32,13 @@ header {
 
 #presentation-container {
     height: 90vh;
+    display: flex;
+    align-items: center;
 }
 
 #presentation {
     width: 60%;
     margin: auto;
-    position: relative;
-    top: 35vh;
 }
 
 .introduction {
@@ -51,4 +55,11 @@ header {
 #presentation p {
     color: #EEEEEE;
     font-size: 1.3rem;
+}
+
+#social-links-container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+
 }
